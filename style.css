@@ -20,3 +20,54 @@
     color: #d4e3d7;
   }
 }
+
+/* التعديلات المطلوبة فقط */
+body {
+  background-color: #e2e9df;
+}
+.service-icon,
+.trust-icon,
+.contact-icon,
+.location-icon,
+.floating-card > span,
+.emergency-symbol,
+.brand-mark,
+.pin,
+.floating-call {
+  color: hotpink;
+}
+.service-card p {
+  font-size: 14px;
+}
+@media (max-width: 680px) {
+  .service-card p {
+    font-size: 12px;
+  }
+}
+
+/* تصحيح خلفيات أقسام الموقع لتظهر بدرجات داكنة واضحة */
+body { background: #26372e; color: #eef5ef; }
+.header { background: #1d2d24; }
+nav { color: #d5e2d8; }
+.brand-text strong { color: #f3f7f3; }
+.brand-text small { color: #b1c1b5; }
+.hero { background: linear-gradient(115deg, #263a30 0%, #20352a 50%, #1b3026 100%); }
+.hero h1, .section-heading h2, .section-copy h2, .contact-copy h2 { color: #f1f6f1; }
+.hero-copy > p, .section-copy p, .section-heading > p, .contact-copy > p { color: #c1d0c5; }
+.hero-points b { color: #d7ead5; }
+.hero-points span, .hero-bottom { color: #b2c2b6; }
+.trust-strip { background: #1d2d24; border-color: #35483b; }
+.trust-grid b { color: #eef5ef; }
+.trust-grid small { color: #b5c4b9; }
+.section { background-color: #26372e; }
+.services-section, .contact-section { background: #202f27; }
+.gallery-section { background: #26372e; }
+.about-caption, .location-card { background: #31453a; color: #edf5ef; }
+.about-caption b, .location-card h3 { color: #f3f7f3; }
+.about-caption, .location-card > p { color: #c1d0c5; }
+.contact-item { background: #31453a; border-color: #43584a; }
+.contact-item small { color: #b5c4b9; }
+.contact-item b { color: #f0f5f1; }
+.footer { background: #15251d; }
+/* توحيد لون الأيقونات على Hot Pink */
+.brand-mark, .service-icon, .trust-icon, .contact-icon, .location-icon, .floating-card > span, .emergency-symbol, .pin, .floating-call, .gallery-controls button { color: hotpink; }
